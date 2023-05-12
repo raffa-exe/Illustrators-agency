@@ -95,6 +95,10 @@ footer{
     text-align: center;
 }
 
+img{
+    max-width: 100%;
+}
+
 footer div.social{
     display: flex;
     gap: 20px;
@@ -212,7 +216,7 @@ section.where div.maps img{
     }
 
     main div.card img, main div.card-ill img{
-        width: 400px;
+        max-width: 100%;
         height: 578px;
     }
 
@@ -271,7 +275,7 @@ section.where div.maps img{
     }
 
     main div.card img, main div.card-ill img{
-        width: 240px;
+        max-width: 100%;
         height: 378px;
     }
 
